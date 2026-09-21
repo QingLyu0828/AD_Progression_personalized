@@ -61,7 +61,7 @@ All supplied rows must already satisfy the pre-index rule: `train.py` fits prepr
 
 ## Training with the reported settings
 
-The script's historical CLI defaults differ from several settings in Methods III.D. The following example sets those parameters explicitly and repeats training over seeds 0-4 on the same supplied split. It follows the manuscript's stated categorical inputs, `PTGENDER` and `APOE4`. Read the method-correspondence notes below before interpreting this as a reproduction command.
+The following example sets those parameters explicitly and repeats training over seeds 0-4 on the same supplied split.
 
 ```bash
 for seed in 0 1 2 3 4; do
